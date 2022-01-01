@@ -21,5 +21,14 @@
 			</array>
 		</dict>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Our app uses bluetooth to find, connect and transfer data between the treadmill/bike and 3rd app like Zwift. The connection is always required.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Our app uses bluetooth to find, connect and transfer data between the treadmill/bike and 3rd app like Zwift</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>bluetooth-peripheral</string>
+	</array>
 </dict>
 </plist>

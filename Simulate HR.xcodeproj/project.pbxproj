@@ -11,8 +11,9 @@
 		8703DE3D2780E1020016FB37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8703DE3C2780E1020016FB37 /* SceneDelegate.swift */; };
 		8703DE3F2780E1020016FB37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8703DE3E2780E1020016FB37 /* ViewController.swift */; };
 		8703DE422780E1020016FB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8703DE402780E1020016FB37 /* Main.storyboard */; };
-		8703DE442780E1060016FB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8703DE432780E1060016FB37 /* Assets.xcassets */; };
 		8703DE472780E1060016FB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8703DE452780E1060016FB37 /* LaunchScreen.storyboard */; };
+		8703DE4F2780E1630016FB37 /* hrdevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8703DE4E2780E1620016FB37 /* hrdevice.swift */; };
+		8703DE512780EB4B0016FB37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8703DE502780EB4B0016FB37 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		8703DE3C2780E1020016FB37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8703DE3E2780E1020016FB37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8703DE412780E1020016FB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8703DE432780E1060016FB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8703DE462780E1060016FB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8703DE482780E1060016FB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8703DE4E2780E1620016FB37 /* hrdevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hrdevice.swift; sourceTree = "<group>"; };
+		8703DE502780EB4B0016FB37 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Assets.xcassets/Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 				8703DE3C2780E1020016FB37 /* SceneDelegate.swift */,
 				8703DE3E2780E1020016FB37 /* ViewController.swift */,
 				8703DE402780E1020016FB37 /* Main.storyboard */,
-				8703DE432780E1060016FB37 /* Assets.xcassets */,
+				8703DE502780EB4B0016FB37 /* Images.xcassets */,
 				8703DE452780E1060016FB37 /* LaunchScreen.storyboard */,
 				8703DE482780E1060016FB37 /* Info.plist */,
+				8703DE4E2780E1620016FB37 /* hrdevice.swift */,
 			);
 			path = "Simulate HR";
 			sourceTree = "<group>";
@@ -126,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8703DE472780E1060016FB37 /* LaunchScreen.storyboard in Resources */,
-				8703DE442780E1060016FB37 /* Assets.xcassets in Resources */,
+				8703DE512780EB4B0016FB37 /* Images.xcassets in Resources */,
 				8703DE422780E1020016FB37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,6 +144,7 @@
 				8703DE3F2780E1020016FB37 /* ViewController.swift in Sources */,
 				8703DE3B2780E1020016FB37 /* AppDelegate.swift in Sources */,
 				8703DE3D2780E1020016FB37 /* SceneDelegate.swift in Sources */,
+				8703DE4F2780E1630016FB37 /* hrdevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +292,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 6335M7T29D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Simulate HR/Info.plist";
@@ -316,7 +320,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 6335M7T29D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Simulate HR/Info.plist";
